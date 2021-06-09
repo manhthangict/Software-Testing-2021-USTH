@@ -3,9 +3,9 @@
 a) wrong with the given code
 * Find last index of element
 If we want to consider all the elements in the array then the condition i must be greater than or equal to 0 (int i = x.length - 1; i >= 0; i--)
-*Find last index of zero
+* Find last index of zero
 To find the last index of an element in an array, we need to invert the loop so that we search from high to low (int i = x.length - 1; i >= 0; i--)
-*Count positive elements
+* Count positive elements
 A positive number is a number greater than zero, not zero (x[i] > 0)
 * Count odd or positive elements
 the odd number condition is that the operator of odd number divided by 2 must be non-zero (x[i]%2 != 0)
@@ -23,7 +23,8 @@ Count positive elements: x = [0, 2, 3]
 Count odd or positive elements: x = [-1, 0, 1]
 
 f)
-*Find last index of element
+* Find last index of element
+```php
 public int findLast(int[] x, int y) {
         for (int i = x.length - 1; i >= 0; i--) {
             if (x[i] == y) {
@@ -32,8 +33,9 @@ public int findLast(int[] x, int y) {
         }
         return -1;
     }
-
-*Find last index of zero
+```
+* Find last index of zero
+```php
 public static int lastZero(int[] x) {
         for (int i = x.length - 1; i >= 0; i--) {
             if (x[i] == 0) {
@@ -42,8 +44,9 @@ public static int lastZero(int[] x) {
         }
         return -1;
     }
-
-*Count positive elements
+```
+* Count positive elements
+```php
 public int countPositive(int[] x) {
         int count = 0;
         for (int i = 0; i < x.length; i++) {
@@ -53,8 +56,9 @@ public int countPositive(int[] x) {
         }
         return count;
     }
-	
+```
 * Count odd or positive elements
+```php
 public int oddOrPos(int[] x) {
         int count = 0;
         for (int i = 0; i < x.length; i++) {
@@ -64,3 +68,4 @@ public int oddOrPos(int[] x) {
         }
         return count;
     }
+```
