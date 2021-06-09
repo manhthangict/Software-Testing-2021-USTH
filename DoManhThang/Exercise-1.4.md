@@ -1,6 +1,6 @@
-#### 1.4:
+### 1.4:
 a) code 
-
+```php
 import java.util.Vector;
 import java.util.ArrayList;
 class main{
@@ -18,18 +18,24 @@ class main{
 	          Vector c = union (a, b)
 	    }
 	}
-	b) It can be fault, because the method name suggests set union, but the argument types suggest otherwise.
-	c)
-	      var a = new Vector();
+```
+b) It can be fault, because the method name suggests set union, but the argument types suggest otherwise.
+
+c)
+```php
+	var a = new Vector();
         var b = new Vector();
         a.add("name");
         var student = new Student("name", 21);
         b.add(student);
         var c = union(a, b);
-	d)
-	public static Vector<String> union(Vector<String> a, Vector<String> b){
-       Vector<String> vector = new Vector<>();
+```
+d)
+```php
+public static Vector<String> union(Vector<String> a, Vector<String> b){
+        Vector<String> vector = new Vector<>();
         vector.addAll(a);
         vector.addAll(b);
         return vector;
 	}
+```
