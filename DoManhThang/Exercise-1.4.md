@@ -35,8 +35,8 @@ c) Create a set of test cases that you think would have a reasonable chance of r
 ```
 d) Rewrite the method signature to be precise enough to clarify the defects and ambiguities identified earlier. You might wish to illustrate your specification with examples drawn from your test cases
 ```php
-	public static Vector<String> union(Vector<String> a, Vector<String> b){
-       Vector<String> vector = new Vector<>();
+public static Vector<String> union(Vector<String> a, Vector<String> b){
+        Vector<String> vector = new Vector<>();
         vector.addAll(a);
         vector.addAll(b);
         return vector;
