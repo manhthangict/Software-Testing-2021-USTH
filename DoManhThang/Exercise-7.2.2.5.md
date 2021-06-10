@@ -1,4 +1,4 @@
-### 7.2.2.1 The graph defined by the following sets:
+### 7.2.2.5 The graph defined by the following sets:
 * N = {1, 2, 3, 4, 5, 6, 7}
 * N0 = {1}
 * Nf = {7}
